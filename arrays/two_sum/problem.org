@@ -32,4 +32,4 @@ You can return the answer in any order.
 Iterate the list and get the result of target - value and validate if the result is in the list if it is return both indices
 
 *** Iterate the list and create hashmap
-Initialize an empty hash map and iterate the list with enumerate, make the operation target - v if the result is in hashmap return the current key given by the enumerate function and the value of the hash_{}_map, if not add the current value as key to the hash map and the index as value to the hash_map
+Initialize an empty hash map and iterate the list with enumerate, make the operation target - value if the result is in hashmap return the current key given by the enumerate function and the value of the hash_{}_map, if not add the current value as key to the hash map and the index as value to the hash_map
