@@ -21,3 +21,9 @@ For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 *** Exmaple 3:
 *Input*: nums = [7,7,7,7]
 *Output*: [0,0,0,0]
+
+
+** Aproaches
+
+*** Use a hash map and a sorted version of the array
+Create a sorted copy of the nums array, iterate over the sorted array and if the value does not exist in the hash map add it as the key and the index of the current item as value, then iterate over the original array, get the value from the hash map using the current item and add it to the array to be returned.
